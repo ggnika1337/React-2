@@ -1,0 +1,10 @@
+.crypto-container {
+  display: flex;
+  gap: 7px;
+}
+
+.price {
+  color: #00fff8;
+  font-weight: 600;
+  font-size: 16px;
+}

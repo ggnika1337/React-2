@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #0d192c;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  max-width: 350px;
+  width: 100%;
+  background-color: #15263f;
+  height: 596px;
+  border-radius: 15px;
+  padding: 24px;
+}
+
+.image {
+  width: 100%;
+}
+
+.mineral-info {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 245px;
+  justify-content: space-between;
+}
+
+.mineral-name {
+  font-weight: 700;
+  font-size: 22px;
+  color: white;
+}
+
+.mineral-description {
+  color: #8bacd9;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.price-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  background-color: #2e405a;
+  height: 1px;
+  width: 100%;
+}
+
+.person-description {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 16px;
+  color: #8bacd9;
+}
+
+.innerName {
+  color: white;
+}
