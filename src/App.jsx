@@ -6,11 +6,15 @@ function App() {
   return (
     <>
       <div className="main-container">
-        <img
-          className="image"
-          src="src\assets\Images\main image.png"
-          alt="Equillibrium Image"
-        />
+        <div className="image-container">
+          <div className="hover"></div>
+          <img className="eye" src="src\assets\Images\Eye.png" alt="" />
+          <img
+            className="image"
+            src="src\assets\Images\main image.png"
+            alt="Equillibrium Image"
+          />
+        </div>
         <div className="mineral-info">
           <h1 className="mineral-name">Equilibrium #3429</h1>
           <span className="mineral-description">
@@ -25,7 +29,9 @@ function App() {
             <div>
               <img src="src\assets\Images\person.svg" alt="" />
             </div>
-            <h1 className="name">Creation of <span className="innerName">Jules Wyvern</span></h1>
+            <h1 className="name">
+              Creation of <span className="innerName">Jules Wyvern</span>
+            </h1>
           </div>
         </div>
       </div>
